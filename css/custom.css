@@ -47,3 +47,81 @@ p, .block-img {
   	display: block;
   	margin-bottom: 1.3rem;
 }
+
+.sumate {
+	font-family: 'Montserrat';
+}
+
+li {
+  	list-style: none;
+}
+
+.footer-info p {
+	font-size: 13px;
+}
+
+.footer-address li {
+  	display: flex;
+  	gap: 10px; /* espacio entre ícono y texto */
+}
+
+.client-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.logo-item {
+  flex: 0 1 120px; /* ancho base, se ajusta si hay menos espacio */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.logo-item img {
+  max-height: 90%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.whatsapp-chat {
+    position: fixed;
+    bottom: 50px;
+    right: 91px;
+    z-index: 9999;
+}
+.whatsapp-icon {
+    position: absolute;
+    bottom: 0;
+}
+.whatsapp-img {
+    background-color: #00a82d !important;
+    height: 50px;
+    width: 50px;
+    border-radius: 60px;
+    /* text-align: center; */
+    background: #00a82d;
+    padding: 13px;
+    box-shadow: 0 5px 8px rgba(0,0,0,.3);
+    line-height: 55px;
+    cursor: pointer;
+    display: block;
+}
+.whatsapp-img i{
+    vertical-align: top;
+}
+
+.widget h4 {
+  text-transform: uppercase;
+  font-family: var(--cnvs-body-font) !important;
+  font-size: 14px;
+  font-style: normal;
+  color: #444;
+}
+
+.footer-address ul {
+  margin-bottom: 0px !important;
+}
