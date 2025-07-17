@@ -28911,8 +28911,8 @@ blockquote.float-end {
   --cnvs-gotoTop-bg: rgba(0, 0, 0, 0.3);
   --cnvs-gotoTop-icon-size: 1.5rem;
   --cnvs-gotoTop-icon-color: #fff;
-  --cnvs-gotoTop-position-boxed-right: 30px;
-  --cnvs-gotoTop-position-boxed-bottom: 50px;
+  --cnvs-gotoTop-position-boxed-right: 45px;
+  --cnvs-gotoTop-position-boxed-bottom: 110px;
   --cnvs-gotoTop-position-botom: 30px;
   --cnvs-gotoTop-border-radius: 2px;
   --cnvs-gotoTop-hover-color: var(--cnvs-themecolor);
