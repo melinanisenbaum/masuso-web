@@ -156,9 +156,20 @@ li {
     margin-bottom: 20px !important;
   }
 
-    .subscribe-widget {
-      padding-top: 20px;
-    }
+  .subscribe-widget {
+    padding-top: 20px;
+  }
 
+  /* .portfolio-image .flexslider .slide { 
+    height: 600px;              
+    display:flex;
+    align-items:center; 
+    justify-content:center;
+  }
 
+  .portfolio-image .flexslider .slide img {
+    max-height:100%; 
+    width:auto; 
+    object-fit:contain;
+  } */
 }
