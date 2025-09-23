@@ -49,7 +49,8 @@ p, .block-img {
 }
 
 .sumate {
-	font-family: 'Montserrat';
+    font-family: 'Poppins', sans-serif !important;
+    text-transform: uppercase;
 }
 
 li {
@@ -161,4 +162,28 @@ li {
     }
 
 
+}
+
+/* Estilo para el enlace del top-bar */
+#top-bar .span-font a {
+    color: #fff !important;
+    transition: color 0.2s;
+}
+#top-bar .span-font a:hover {
+    color: #aab7bd !important;
+}
+
+.sale-flash.badge {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#oc-clients {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: 40px;
 }
