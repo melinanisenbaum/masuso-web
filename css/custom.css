@@ -187,3 +187,15 @@ li {
     padding-right: 0 !important;
     margin-bottom: 40px;
 }
+
+.section-content h3 {
+    color: #212529 !important; /* nuevo color */
+    font size: 50px !important;
+
+}
+
+.section-content span {
+    color: #212529 !important; /* nuevo color */
+    font size: 20px !important;
+
+}
