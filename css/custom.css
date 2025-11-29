@@ -32,20 +32,27 @@ p, .block-img {
   	z-index: 1;
 }
 
+.section-content  {
+  	max-width: none;
+    width: 70%;
+}
 .section-content h3 {
-  	color: #f5f1f1;             
+  	color: #212529;             
   	letter-spacing: 0.01em;
   	line-height: 1.18;
   	margin-bottom: 1.1rem;
+    font-size: 2.8rem
 }
 
+
 .section-content span {
-	font-size: 1.7 rem;
-	color: #e8dede;        
+	font-size: 1.8rem;
+	color: #212529;        
   	letter-spacing: 0.01em;
   	line-height: 1.65;
   	display: block;
   	margin-bottom: 1.3rem;
+    font-size: 1rem !important;
 }
 
 .sumate {
@@ -173,7 +180,27 @@ li {
     box-sizing: border-box;
 }
 
+@media (max-width: 1200px) {
+.section-content  {
+    width: 90%;
+    margin-top: 0 !important;
+}
+.section-content h3 {
+  	color: #212529;             
+  	letter-spacing: none;
+  	line-height: 1;
+  	margin-bottom: 0.5rem;
+    font-size: 2rem
+}
 
+
+.section-content span {
+	font-size: 1rem;
+ 	letter-spacing: 0rem;
+  	margin-bottom: 1rem;
+    font-size: 0.8rem !important;
+}
+}
 
 @media (max-width: 576px) {
   .emphasis-title h2 {
@@ -181,7 +208,7 @@ li {
   }
 
   .section-content span {
-    font-size: 16px;
+    font-size: 16px !important;
   }
 
   .section-content {
@@ -224,14 +251,3 @@ li {
     margin-bottom: 40px;
 }
 
-.section-content h3 {
-    color: #212529 !important; /* nuevo color */
-    font-size: 50px !important;
-
-}
-
-.section-content span {
-    color: #212529 !important; /* nuevo color */
-    font-size: 20px !important;
-
-}
