@@ -138,6 +138,42 @@ li {
 .portfolio-desc span {
   font-size: 12px;
 }
+.page-title {
+    margin-top: 0 !important;              /* quita espacio superior */
+    padding-top: 80px;                     /* altura del espacio ampliado (ajustar) */
+    padding-bottom: 60px;                  /* separación inferior opcional */
+}
+#bioleather-intro .subtitle {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    text-align: center; /* conservar centrado dentro del ancho completo */
+}
+
+#bioleather-intro .heading-block {
+  --cnvs-heading-block-center-container: 1400px !important;
+}
+
+#bioleather-intro .content-wrap {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+.sheets-gallery .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* centra las columnas horizontalmente */
+    gap: 24px; /* separacion entre items, ajustar si hace falta */
+    margin-left: 0;
+    margin-right: 0;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+
 
 @media (max-width: 576px) {
   .emphasis-title h2 {
@@ -196,6 +232,6 @@ li {
 
 .section-content span {
     color: #212529 !important; /* nuevo color */
-    font size: 20px !important;
+    font-size: 20px !important;
 
 }
