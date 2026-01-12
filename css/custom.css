@@ -136,6 +136,45 @@ li {
 .footer-address ul {
   margin-bottom: 0px !important;
 }
+/* --- Certificación (Home) --- */
+.certification-block{
+  margin-top: 18px;
+}
+
+.certification-title{
+  font-family: "Nexa", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: #808080; /* gris del manual */
+  margin-bottom: 10px;
+}
+
+.certification-badge{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.certification-badge__img{
+  height: 100px;
+  width: auto;
+  display: block;
+}
+
+.certification-badge__text{
+  font-family: "Nexa", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000; /* negro del manual */
+  line-height: 1.25;
+}
+
+@media (max-width: 768px){
+  .certification-badge__img{ height: 36px; }
+  .certification-badge__text{ font-size: 13px; }
+}
 
 .portfolio-desc h3 {
   font-weight: normal;
@@ -169,6 +208,45 @@ li {
   padding-top: 0px !important;
   padding-bottom: 0px !important;
 }
+
+/* --- Sello Bioproducto en Hero (Biocueros) --- */
+.hero-cert{
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin: 10px 0 14px 0;
+  padding: 10px 12px;
+  border: 1px solid #e5e5e5;
+  border-radius: 14px;
+  background: rgba(255,255,255,0.75);
+  backdrop-filter: blur(4px);
+}
+
+.hero-cert__img{
+  height: 44px;
+  width: auto;
+  display: block;
+}
+
+.hero-cert__text{
+  font-family: "Nexa", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #000000;
+}
+
+/* Mobile */
+@media (max-width: 768px){
+  .hero-cert{
+    width: 100%;
+    gap: 10px;
+    padding: 10px 10px;
+  }
+  .hero-cert__img{ height: 36px; }
+  .hero-cert__text{ font-size: 13px; }
+}
+
 .sheets-gallery .row {
     display: flex;
     flex-wrap: wrap;
