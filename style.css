@@ -26144,6 +26144,11 @@ td.actions {
   color: rgba(var(--cnvs-color-twitch-rgb), 1) !important;
 }
 
+/* Custom hover for Instagram icon */
+.social-icon:hover .bi-instagram {
+  color: black !important;
+}
+
 /*-----------------------------------------------------------------------------------
 
 	Shortcodes: toggles-accordions.scss
