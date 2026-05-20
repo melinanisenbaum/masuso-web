@@ -316,8 +316,9 @@ li {
     }
 }
 @media (max-width: 576px) {
+  .slider-caption .emphasis-title h2,
   .emphasis-title h2 {
-    line-height: 0.9 !important;
+    line-height: 1.05 !important;
   }
 
   .section-content span {
@@ -329,6 +330,11 @@ li {
     
   }
 
+  .slider-arrow-left,
+  .slider-arrow-right {
+    display: none !important;
+  }
+
   .footer-address ul {
     margin-bottom: 20px !important;
   }
@@ -336,6 +342,14 @@ li {
     .subscribe-widget {
       padding-top: 20px;
     }
+
+  .b2b-cards {
+    flex-wrap: wrap !important;
+  }
+
+  .b2b-cards .col {
+    min-width: 100% !important;
+  }
 
 
 }
@@ -362,5 +376,42 @@ li {
     margin-right: 0 !important;
     padding-right: 0 !important;
     margin-bottom: 40px;
+}
+
+/* --- Clientes / "Nos acompañan" --- */
+.clients-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+.clients-grid .grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+.clients-grid .grid-item img {
+  max-width: 100%;
+  height: auto;
+  max-height: 60px;
+  object-fit: contain;
+}
+
+@media (max-width: 576px) {
+  .clients-grid {
+    gap: 16px;
+  }
+  .clients-grid .grid-item {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+  .clients-grid .grid-item img {
+    max-height: 80px;
+  }
 }
 
