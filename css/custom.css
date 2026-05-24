@@ -187,6 +187,18 @@ li {
 .portfolio-desc span {
   font-size: 12px;
 }
+/* h3 específicos dentro de la sección de validaciones */
+#validaciones .portfolio-item .portfolio-desc h3,
+#validaciones .portfolio-item h3 {
+  font-size: 20px !important;
+  line-height: 1.1;
+}
+/* spans dentro de los portfolio-item en validaciones */
+#validaciones .portfolio-item .portfolio-desc span,
+#validaciones .portfolio-item span {
+  font-size: 16px !important;
+  line-height: 1.4;
+}
 .page-title {
     margin-top: 0 !important;              /* quita espacio superior */
     padding-top: 80px;                     /* altura del espacio ampliado (ajustar) */
@@ -206,6 +218,11 @@ li {
 #bioleather-intro .heading-block {
   --cnvs-heading-block-center-container: 1400px !important;
 }
+
+#empresas p {
+  padding-top: 15px;
+}
+
 
 #bioleather-intro .content-wrap {
   padding-top: 0px !important;
@@ -413,5 +430,32 @@ li {
   .clients-grid .grid-item img {
     max-height: 80px;
   }
+}
+
+#proceso .feature-box .fbox-icon {
+  margin-bottom: 20px;
+}
+
+#proceso .feature-box .fbox-icon span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  background: rgba(0, 0, 0, 0.06);
+  color: #4d4d4d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 46px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+
+#proceso .feature-box .fbox-content h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
 }
 
