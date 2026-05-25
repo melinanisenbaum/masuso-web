@@ -175,7 +175,7 @@ li {
 }
 
 @media (max-width: 768px){
-  .certification-badge__img{ height: 36px; }
+  .certification-badge__img{ height: 70px; }
   .certification-badge__text{ font-size: 13px; }
 }
 

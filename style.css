@@ -24803,6 +24803,96 @@ td.actions {
   --cnvs-iconlist-gutter: 0.875rem;
 }
 
+/* Mobile - Íconos centrados y 2x más grandes */
+@media (max-width: 767.98px) {
+  .iconlist li {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+  }
+  
+  .iconlist > li i:first-child,
+  .iconlist > li img:first-child {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+  }
+  
+  /* Mobile - Feature boxes centrados */
+  .fbox-center {
+    align-items: center !important;
+    text-align: center !important;
+  }
+  
+  .fbox-center .fbox-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0 auto 1.5rem;
+  }
+  
+  .fbox-center .fbox-icon i,
+  .fbox-center .fbox-icon span {
+    width: var(--cnvs-featured-box-icon);
+    height: var(--cnvs-featured-box-icon);
+    border-radius: 50%;
+    background-color: var(--cnvs-themecolor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 1;
+  }
+  
+  /* Mobile - Footer centrado */
+  .footer-widgets-wrap {
+    text-align: center;
+  }
+  
+  .footer-widgets-wrap .row {
+    flex-direction: column;
+  }
+  
+  .footer-widgets-wrap .widget_links img {
+    max-width: 140px !important;
+  }
+  
+  .footer-address ul {
+    text-align: center;
+  }
+  
+  .footer-address ul li {
+    justify-content: center;
+  }
+  
+  .certification-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .certification-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .certification-badge__img {
+    max-width: 150px !important;
+    margin-bottom: 1rem;
+  }
+  
+  #copyrights {
+    text-align: center;
+  }
+}
+
 /*-----------------------------------------------------------------------------------
 
 	Shortcodes: social-icons.scss
