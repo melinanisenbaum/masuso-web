@@ -332,10 +332,24 @@ li {
         opacity: 1;
     }
 }
+
+@media (min-width: 992px) {
+  #slider .slider-caption {
+    --cnvs-slider-caption-width: 680px;
+    max-width: 680px !important;
+  }
+
+  #slider .slider-caption .lead {
+    width: 680px;
+    max-width: 680px !important;
+  }
+}
+
 @media (max-width: 576px) {
-  .slider-caption .emphasis-title h2,
-  .emphasis-title h2 {
+  #slider .slider-caption .emphasis-title h2 {
+    font-size: 32px !important;
     line-height: 1.05 !important;
+    max-width: 92vw !important;
   }
 
   .section-content span {
@@ -453,6 +467,38 @@ li {
   text-transform: uppercase;
 }
 
+#slider .slider-caption .more-link {
+  margin-top: 34px !important;
+  padding-bottom: 4px;
+  font-size: 17px;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+}
+
+#slider .slider-caption .more-link i {
+  margin-left: 8px;
+  font-size: 1.1em;
+}
+
+#slider .slider-caption .lead {
+  color: #777 !important;
+}
+
+@media (min-width: 992px) {
+  #nosotros .fslider {
+    width: 80%;
+  }
+
+  #nosotros .slide img {
+    aspect-ratio: 1 / 1;
+    height: auto;
+    object-fit: cover;
+  }
+
+  #nosotros .fslider.flex-thumb-grid.grid-6 .flex-control-nav.flex-control-thumbs li {
+    width: 25% !important;
+  }
+}
 
 #proceso .feature-box .fbox-content h3 {
   font-family: 'Montserrat', sans-serif;
@@ -462,5 +508,9 @@ li {
 #sustentabilidad-impacto .fbox-center .fbox-icon i {
   background-color: #fff !important;
   color: #a48672 !important;
+}
+
+#footer .footer-widgets-wrap {
+  padding: 0 !important;
 }
 
