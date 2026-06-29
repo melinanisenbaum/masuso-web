@@ -514,3 +514,74 @@ li {
   padding: 0 !important;
 }
 
+.bioleather-shipping__header {
+  max-width: 720px;
+  margin-bottom: 28px;
+}
+
+.bioleather-shipping__header h3 {
+  margin-bottom: 10px;
+  color: #212529;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.bioleather-shipping__header p,
+.bioleather-shipping__card p,
+.bioleather-shipping__note {
+  font-family: 'Poppins', sans-serif;
+  color: #555;
+  line-height: 1.65;
+}
+
+.bioleather-shipping__header p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.bioleather-shipping__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.bioleather-shipping__card {
+  padding: 24px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.bioleather-shipping__card h4 {
+  margin-bottom: 14px;
+  color: #212529;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.bioleather-shipping__card p {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.bioleather-shipping__card p:last-child {
+  margin-bottom: 0;
+}
+
+.bioleather-shipping__note {
+  margin: 18px 0 0;
+  font-size: 13px;
+}
+
+@media (max-width: 767.98px) {
+  .bioleather-shipping__header h3 {
+    font-size: 24px;
+  }
+
+  .bioleather-shipping__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
