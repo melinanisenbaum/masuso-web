@@ -1,0 +1,1457 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+.button-shop {
+	color: rgb(237, 224, 224);
+}
+.subtitle {
+	font-family: Poppins;
+}
+.section-title {
+	font-size: 40px;
+	color: #444;
+}
+
+.span-font {
+	font-family: Poppins;
+}
+
+p, .block-img {
+	font-family: Poppins;
+}
+
+.col-md-6::before {
+  	content: "";
+  	position: absolute;
+  	top: 0; left: 0; right: 0; bottom: 0;
+  	z-index: 1;
+}
+
+.section-content  {
+  	max-width: none;
+    width: 70%;
+}
+.section-content h3 {
+  	color: #212529;             
+  	letter-spacing: 0.01em;
+  	line-height: 1.18;
+  	margin-bottom: 1.1rem;
+    font-size: 2.8rem
+}
+
+
+.section-content span {
+	font-size: 1.8rem;
+	color: #212529;        
+  	letter-spacing: 0.01em;
+  	line-height: 1.65;
+  	display: block;
+  	margin-bottom: 1.3rem;
+    font-size: 1rem !important;
+}
+
+.sumate {
+    font-family: 'Poppins', sans-serif !important;
+    text-transform: uppercase;
+}
+
+li {
+  	list-style: none;
+}
+
+.footer-info p {
+	font-size: 13px;
+}
+
+.subtitle #b2b {
+    margin-top: 3.5 rem !important;
+}
+
+.footer-address li {
+  	display: flex;
+  	gap: 10px; /* espacio entre ícono y texto */
+}
+
+.client-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.logo-item {
+  flex: 0 1 120px; /* ancho base, se ajusta si hay menos espacio */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+
+.logo-item img {
+  max-height: 90%;
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.whatsapp-chat {
+    position: fixed;
+    bottom: 50px;
+    right: 91px;
+    z-index: 9999;
+}
+.whatsapp-icon {
+    position: absolute;
+    bottom: 0;
+}
+.whatsapp-img {
+    background-color: #00a82d !important;
+    height: 50px;
+    width: 50px;
+    border-radius: 60px;
+    /* text-align: center; */
+    background: #00a82d;
+    padding: 13px;
+    box-shadow: 0 5px 8px rgba(0,0,0,.3);
+    line-height: 25px;
+    cursor: pointer;
+    display: block;
+    
+}
+.whatsapp-img i{
+    vertical-align: top;
+    
+}
+
+.widget h4 {
+  text-transform: uppercase;
+  font-family: var(--cnvs-body-font) !important;
+  font-size: 14px;
+  font-style: normal;
+  color: #444;
+}
+
+.footer-address ul {
+  margin-bottom: 0px !important;
+}
+/* --- Certificación (Home) --- */
+.certification-block{
+  margin-top: 18px;
+}
+
+.certification-title{
+  font-family: "Nexa", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  color: #808080; /* gris del manual */
+  margin-bottom: 10px;
+}
+
+.certification-badge{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.certification-badge__img{
+  height: 100px;
+  width: auto;
+  display: block;
+}
+
+.certification-badge__text{
+  font-family: "Nexa", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000; /* negro del manual */
+  line-height: 1.25;
+}
+
+@media (max-width: 768px){
+  .certification-badge__img{ height: 70px; }
+  .certification-badge__text{ font-size: 13px; }
+}
+
+.portfolio-desc h3 {
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.portfolio-desc span {
+  font-size: 12px;
+}
+/* h3 específicos dentro de la sección de validaciones */
+#validaciones .portfolio-item .portfolio-desc h3,
+#validaciones .portfolio-item h3 {
+  font-size: 20px !important;
+  line-height: 1.1;
+}
+/* spans dentro de los portfolio-item en validaciones */
+#validaciones .portfolio-item .portfolio-desc span,
+#validaciones .portfolio-item span {
+  font-size: 16px !important;
+  line-height: 1.4;
+}
+.page-title {
+    margin-top: 0 !important;              /* quita espacio superior */
+    padding-top: 80px;                     /* altura del espacio ampliado (ajustar) */
+    padding-bottom: 60px;                  /* separación inferior opcional */
+}
+#bioleather-intro .subtitle {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    text-align: center; /* conservar centrado dentro del ancho completo */
+}
+
+#bioleather-intro .heading-block {
+  --cnvs-heading-block-center-container: 1400px !important;
+}
+
+#empresas p {
+  padding-top: 15px;
+}
+
+
+#bioleather-intro .content-wrap {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+#etapas .b2b-cards .col {
+  display: flex;
+  flex-direction: column;
+}
+
+#etapas .b2b-cards .col > span {
+  display: block;
+  margin-top: auto;
+}
+
+.revium-line-info {
+  max-width: 760px;
+  margin: 24px auto 0;
+}
+
+.revium-line-info p {
+  margin-bottom: 6px;
+  font-family: "Poppins", sans-serif;
+}
+
+.revium-line-info .button {
+  margin-top: 18px !important;
+}
+
+.revium-options {
+  padding-top: 32px;
+}
+
+.tooltip-inner {
+  text-align: left;
+}
+
+.tooltip-inner strong {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.tooltip-inner b {
+  font-weight: 700;
+}
+
+.revium-details {
+  padding: 72px 0;
+  background: #fff;
+}
+
+.revium-details__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 36px 28px;
+}
+
+.revium-details__item {
+  text-align: center;
+}
+
+.revium-details__item i {
+  display: inline-block;
+  margin-bottom: 16px;
+  color: #444;
+  font-size: 34px;
+  line-height: 1;
+}
+
+.revium-details__item h4 {
+  margin-bottom: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.revium-details__item p {
+  margin: 0;
+  color: #555;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.revium-details__cta {
+  margin-top: 42px;
+  text-align: center;
+}
+
+.revium-product-flow {
+  display: flex;
+  flex-direction: column;
+}
+
+.revium-product-flow > #etapas { order: 1; }
+.revium-product-flow > #que-es-revium { order: 2; }
+.revium-product-flow > #bioleather-kit { order: 3; }
+.revium-product-flow > #bioleather-intro { order: 4; }
+.revium-product-flow > #aplicaciones-concretas { order: 5; }
+.revium-product-flow > #antes-de-aplicar { order: 6; }
+
+.revium-product-flow > #etapas,
+.revium-product-flow > #antes-de-aplicar,
+.revium-product-flow > #bioleather-kit {
+  background-color: #fff;
+}
+
+.revium-product-flow > #que-es-revium,
+.revium-product-flow > #bioleather-intro,
+.revium-product-flow > #aplicaciones-concretas {
+  background-color: var(--cnvs-section-bg);
+}
+
+.revium-overview {
+  padding: 90px 0;
+}
+
+.revium-overview__content {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 64px;
+  align-items: center;
+}
+
+.revium-overview h2 {
+  margin-bottom: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.revium-overview sup {
+  font-size: 0.55em;
+}
+
+.revium-overview p {
+  max-width: 760px;
+  margin: 0;
+  color: #555;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.75;
+}
+
+.revium-overview__seal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  color: #555;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  text-align: center;
+}
+
+.revium-overview__seal img {
+  width: 110px;
+  height: auto;
+}
+
+.revium-lines__header {
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.revium-lines__header h2 {
+  margin-bottom: 10px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.revium-lines__header p {
+  margin: 0;
+  color: #555;
+  font-family: "Poppins", sans-serif;
+}
+
+.revium-applications {
+  padding: 100px 0;
+  background: #f7f7f5;
+}
+
+.revium-applications__header {
+  width: 100%;
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+.revium-applications__header h2,
+.revium-applications__closing h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.revium-applications sup {
+  font-size: 0.55em;
+}
+
+.revium-applications__header p {
+  margin: 10px 0 0;
+  color: #555;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+}
+
+.revium-applications__grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.revium-application-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+
+.revium-application-card > img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.revium-application-card__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.revium-application-card h3 {
+  margin-bottom: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.revium-application-card__lead {
+  margin-bottom: 18px;
+  color: #555;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
+
+.revium-application-card ul {
+  margin: 0 0 20px;
+  padding-left: 18px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+}
+
+.revium-application-card__status {
+  align-self: flex-start;
+  margin-top: auto;
+  margin-bottom: 18px;
+  padding: 6px 10px;
+  border-radius: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.revium-application-card__status.is-recommended {
+  color: #315b3a;
+  background: #e6f1e8;
+}
+
+.revium-application-card__status.is-validation {
+  color: #715420;
+  background: #f5ecd8;
+}
+
+.revium-application-card .more-link {
+  align-self: flex-start;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+.revium-applications__closing {
+  margin-top: 56px;
+  padding: 42px;
+  background: #fff;
+  text-align: center;
+}
+
+.revium-applications__closing p {
+  max-width: 820px;
+  margin: 8px auto 0;
+  color: #555;
+  font-family: "Poppins", sans-serif;
+}
+
+.revium-applications__actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 26px;
+}
+
+.revium-applications__actions .more-link {
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .revium-applications__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.revium-guidance {
+  padding: 100px 0;
+  background: #f1f1ed;
+}
+
+.revium-guidance__header {
+  max-width: 880px;
+  margin: 0 auto 46px;
+  text-align: center;
+}
+
+.revium-guidance__header h2,
+.revium-guidance__cta h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.revium-guidance sup {
+  font-size: 0.55em;
+}
+
+.revium-guidance__header p,
+.revium-guidance__cta p {
+  margin: 14px 0 0;
+  color: #555;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+}
+
+.revium-guidance__grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.revium-guidance__item {
+  display: flex;
+  gap: 16px;
+  padding: 24px;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+.revium-guidance__item i {
+  flex: 0 0 auto;
+  color: #555;
+  font-size: 28px;
+  line-height: 1;
+}
+
+.revium-guidance__item h3 {
+  margin-bottom: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.revium-guidance__item p {
+  margin: 0;
+  color: #555;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.revium-guidance__cta {
+  margin-top: 42px;
+  padding: 38px;
+  background: #fff;
+  text-align: center;
+}
+
+.revium-guidance__cta p {
+  max-width: 780px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.revium-guidance__actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.revium-guidance__actions .more-link {
+  font-family: "Montserrat", sans-serif;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .revium-guidance__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.revium-kits {
+  padding: 100px 0;
+}
+
+.revium-kits__header {
+  max-width: 850px;
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+.revium-kits__header h2,
+.revium-kits__comparison h3,
+.revium-kits__help h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.revium-kits sup {
+  font-size: 0.55em;
+}
+
+.revium-kits__header p {
+  margin: 16px 0 0;
+  color: #555;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+}
+
+.revium-kits__cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 28px;
+  align-items: stretch;
+}
+
+.revium-kit-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+
+.revium-kit-card > img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.revium-kit-card__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.revium-kit-card h3 {
+  margin-bottom: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.revium-kit-card__lead {
+  margin-bottom: 26px;
+  color: #555;
+  font-size: 16px;
+}
+
+.revium-kit-card h4 {
+  margin: 4px 0 10px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.revium-kit-card ul {
+  margin: 0 0 22px;
+  padding-left: 20px;
+}
+
+.revium-kit-card li,
+.revium-kit-card p {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+}
+
+.revium-kit-card__result {
+  margin: auto 0 24px;
+  padding: 18px;
+  background: #f4f4f1;
+}
+
+.revium-kit-card__result p {
+  margin: 0;
+}
+
+.revium-kit-card .button {
+  align-self: flex-start;
+}
+
+.revium-sheets-card {
+  display: grid;
+  grid-template-columns: 280px minmax(0, 0.9fr) minmax(0, 1.1fr);
+  gap: 30px;
+  margin-top: 28px;
+  padding: 26px;
+  background: #f4f4f1;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 8px;
+}
+
+.revium-sheets-card > img {
+  width: 100%;
+  height: 100%;
+  min-height: 330px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.revium-sheets-card__intro {
+  align-self: center;
+}
+
+.revium-sheets-card__eyebrow {
+  display: block;
+  margin-bottom: 10px;
+  color: #777;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.revium-sheets-card h3 {
+  margin-bottom: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.revium-sheets-card sup {
+  font-size: 0.55em;
+}
+
+.revium-sheets-card__lead {
+  margin-bottom: 18px;
+  color: #444;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.revium-sheets-card p {
+  color: #555;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+}
+
+.revium-sheets-card__commercial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.revium-sheets-card__commercial ul {
+  margin: 0 0 24px;
+  padding: 0;
+  list-style: none;
+}
+
+.revium-sheets-card__commercial li {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 13px;
+  color: #555;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.revium-sheets-card__commercial li i {
+  flex: 0 0 20px;
+  color: #555;
+  font-size: 18px;
+}
+
+.revium-sheets-card__commercial li strong {
+  display: block;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
+
+.revium-sheets-card__actions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.revium-sheets-card__actions .more-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .revium-sheets-card {
+    grid-template-columns: 240px minmax(0, 1fr);
+  }
+
+  .revium-sheets-card__commercial {
+    grid-column: 1 / -1;
+  }
+}
+
+.revium-kits__comparison {
+  margin-top: 72px;
+}
+
+.revium-kits__comparison > h3 {
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.revium-kits__table-wrap {
+  overflow-x: auto;
+}
+
+.revium-kits table {
+  width: 100%;
+  min-width: 1000px;
+  margin: 0 auto;
+  background: #fff;
+  border-collapse: collapse;
+}
+
+.revium-kits th,
+.revium-kits td {
+  padding: 12px 14px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  vertical-align: top;
+}
+
+.revium-kits thead th {
+  background: #333;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.revium-kits tbody th {
+  width: 16%;
+  font-weight: 600;
+}
+
+.revium-comparison__cta {
+  display: inline-block;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.35;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.revium-kits__mobile-comparison {
+  display: none;
+}
+
+.revium-comparison-card {
+  padding: 24px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.revium-comparison-card > span {
+  display: block;
+  margin-bottom: 6px;
+  color: #777;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.revium-comparison-card h4 {
+  margin-bottom: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.revium-comparison-card dl,
+.revium-comparison-card dd {
+  margin: 0;
+}
+
+.revium-comparison-card dl > div {
+  padding: 11px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.revium-comparison-card dt,
+.revium-comparison-card dd {
+  font-family: "Poppins", sans-serif;
+}
+
+.revium-comparison-card dt {
+  margin-bottom: 3px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.revium-comparison-card dd {
+  color: #555;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.revium-comparison-card .button {
+  margin-top: 20px !important;
+}
+
+.revium-kits__help {
+  width: 100%;
+  margin: 64px auto 0;
+  padding: 42px;
+  background: #fff;
+  text-align: center;
+}
+
+.revium-kits__help p {
+  margin: 14px 0 24px;
+  color: #555;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+}
+
+@media (max-width: 767px) {
+  .revium-details__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .revium-overview {
+    padding: 72px 0;
+  }
+
+  .revium-overview__content {
+    grid-template-columns: 1fr;
+    gap: 36px;
+    text-align: center;
+  }
+
+  .revium-applications {
+    padding: 72px 0;
+  }
+
+  .revium-applications__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .revium-application-card {
+    flex-direction: column;
+  }
+
+  .revium-application-card > img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+  }
+
+  .revium-applications__closing {
+    padding: 30px 22px;
+  }
+
+  .revium-applications__actions {
+    flex-direction: column;
+  }
+
+  .revium-guidance {
+    padding: 72px 0;
+  }
+
+  .revium-guidance__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .revium-guidance__cta {
+    padding: 30px 22px;
+  }
+
+  .revium-guidance__actions {
+    flex-direction: column;
+  }
+
+  .revium-kits {
+    padding: 72px 0;
+  }
+
+  .revium-kits__cards {
+    grid-template-columns: 1fr;
+  }
+
+  .revium-sheets-card {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .revium-sheets-card > img {
+    height: 220px;
+    min-height: 0;
+  }
+
+  .revium-kit-card__body {
+    padding: 24px;
+  }
+
+  .revium-kit-card > img {
+    height: 210px;
+  }
+
+  .revium-kits__table-wrap {
+    display: none;
+  }
+
+  .revium-kits__mobile-comparison {
+    display: grid;
+    gap: 18px;
+  }
+
+  .revium-kits__help {
+    padding: 30px 22px;
+  }
+}
+
+/* --- Sello Bioproducto en Hero (Biocueros) --- */
+.hero-cert{
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0 14px 0;
+  padding: 10px 0;
+ 
+  
+  
+}
+
+.hero-cert__img{
+  height: 35px;
+  width: auto;
+  display: block;
+}
+
+.hero-cert__text{
+  font-family: "Nexa", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.25;
+  color: #999;
+}
+
+.hero-cert__text a{
+  color: inherit;
+}
+
+/* Mobile */
+@media (max-width: 768px){
+  .hero-cert{
+    width: 100%;
+    gap: 10px;
+    padding: 10px 0;
+  }
+  .hero-cert__img{ height: 36px; }
+  .hero-cert__text{ font-size: 13px; }
+}
+
+.sheets-gallery .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* centra las columnas horizontalmente */
+    gap: 24px; /* separacion entre items, ajustar si hace falta */
+    margin-left: 0;
+    margin-right: 0;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+@media (min-width: 992px) {
+  .sheets-gallery .row > .col-lg-3 {
+    flex: 0 0 calc((100% - 72px) / 4);
+    max-width: calc((100% - 72px) / 4);
+  }
+}
+
+#sci-culture a {
+    transition: opacity 0.4s ease;
+    opacity: 0.95;
+}
+
+#sci-culture a:hover {
+    opacity: 1;
+    filter: brightness(1.1);
+}
+
+#sci-culture a:hover h3 {
+    display: none;
+}
+
+#sci-culture a:hover .sci-culture-text {
+    display: block !important;
+    animation: fadeIn 0.3s ease-in;
+}
+
+.sci-culture-text {
+	font-size: 5rem;
+ 	letter-spacing: 0rem;
+  	margin-bottom: 1rem;
+}
+
+@media (max-width: 1200px) {
+.section-content  {
+    width: 90%;
+    margin-top: 0 !important;
+}
+.section-content h3 {
+  	color: #212529;             
+  	letter-spacing: none;
+  	line-height: 1;
+  	margin-bottom: 0.5rem;
+    font-size: 2rem
+}
+
+
+.section-content span {
+	font-size: 1rem;
+ 	letter-spacing: 0rem;
+  	margin-bottom: 1rem;
+    font-size: 0.8rem !important;
+}
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@media (min-width: 992px) {
+  #slider .slider-caption {
+    --cnvs-slider-caption-width: 680px;
+    max-width: 680px !important;
+  }
+
+  #slider .slider-caption .lead {
+    width: 680px;
+    max-width: 680px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #slider .slider-caption .emphasis-title h2,
+  .page-title .page-title-content h2 {
+    font-size: 32px !important;
+    line-height: 1.05 !important;
+    max-width: 92vw !important;
+  }
+
+  .section-content span {
+    font-size: 16px !important;
+  }
+
+  .section-content {
+    padding: 0px 20px 0px !important;
+    
+  }
+
+  .slider-arrow-left,
+  .slider-arrow-right {
+    display: none !important;
+  }
+
+  .footer-address ul {
+    margin-bottom: 20px !important;
+  }
+
+    .subscribe-widget {
+      padding-top: 20px;
+    }
+
+  .b2b-cards {
+    flex-wrap: wrap !important;
+  }
+
+  .b2b-cards .col {
+    min-width: 100% !important;
+  }
+
+
+}
+
+/* Estilo para el enlace del top-bar */
+#top-bar .span-font a {
+    color: #fff !important;
+    transition: color 0.2s;
+}
+#top-bar .span-font a:hover {
+    color: #aab7bd !important;
+}
+
+.sale-flash.badge {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#oc-clients {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    margin-right: 0 !important;
+    padding-right: 0 !important;
+    margin-bottom: 40px;
+}
+
+/* --- Clientes / "Nos acompañan" --- */
+.clients-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding-left: 0;
+  margin-left: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+.clients-grid .grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+}
+.clients-grid .grid-item img {
+  max-width: 100%;
+  height: auto;
+  max-height: 90px;
+  object-fit: contain;
+}
+
+@media (max-width: 576px) {
+  .clients-grid {
+    gap: 16px;
+  }
+  .clients-grid .grid-item {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+  .clients-grid .grid-item img {
+    max-height: 80px;
+  }
+}
+
+#proceso .feature-box .fbox-icon {
+  margin-bottom: 20px;
+}
+
+#proceso .feature-box .fbox-icon span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.14);
+  background: rgba(0, 0, 0, 0.06);
+  color: #4d4d4d;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 46px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+#slider .slider-caption .more-link,
+.page-title .page-title-content .more-link {
+  margin-top: 34px !important;
+  padding-bottom: 4px;
+  font-size: 17px;
+  letter-spacing: 0.04em;
+  line-height: 1.2;
+}
+
+#slider .slider-caption .more-link i,
+.page-title .page-title-content .more-link i {
+  margin-left: 8px;
+  font-size: 1.1em;
+}
+
+#slider .slider-caption .lead {
+  color: #777 !important;
+}
+
+@media (min-width: 992px) {
+  #nosotros .fslider {
+    width: 80%;
+  }
+
+  #nosotros .slide img {
+    aspect-ratio: 1 / 1;
+    height: auto;
+    object-fit: cover;
+  }
+
+  #nosotros .fslider.flex-thumb-grid.grid-6 .flex-control-nav.flex-control-thumbs li {
+    width: 25% !important;
+  }
+}
+
+#proceso .feature-box .fbox-content h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+#sustentabilidad-impacto .fbox-center .fbox-icon i {
+  background-color: #fff !important;
+  color: #a48672 !important;
+}
+
+#footer .footer-widgets-wrap {
+  padding: 0 !important;
+}
+
+#applications-hero {
+  min-height: 540px;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 767.98px) {
+  #applications-hero {
+    min-height: 360px;
+  }
+}
+
+.bioleather-shipping__header {
+  max-width: 720px;
+  margin-bottom: 28px;
+}
+
+.bioleather-shipping__header h3 {
+  margin-bottom: 10px;
+  color: #212529;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.bioleather-shipping__header p,
+.bioleather-shipping__card p,
+.bioleather-shipping__note {
+  font-family: 'Poppins', sans-serif;
+  color: #555;
+  line-height: 1.65;
+}
+
+.bioleather-shipping__header p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.bioleather-shipping__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.bioleather-shipping__card {
+  padding: 24px;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.bioleather-shipping__card h4 {
+  margin-bottom: 14px;
+  color: #212529;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.bioleather-shipping__card p {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.bioleather-shipping__card p:last-child {
+  margin-bottom: 0;
+}
+
+.bioleather-shipping__note {
+  margin: 18px 0 0;
+  font-size: 13px;
+}
+
+@media (max-width: 767.98px) {
+  .bioleather-shipping__header h3 {
+    font-size: 24px;
+  }
+
+  .bioleather-shipping__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
