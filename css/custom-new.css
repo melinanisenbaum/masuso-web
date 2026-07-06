@@ -280,8 +280,8 @@ li {
 
 .revium-details__grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 36px 28px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 32px 24px;
 }
 
 .revium-details__item {
@@ -308,6 +308,34 @@ li {
   color: #555;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
+  line-height: 1.6;
+}
+
+.revium-details__header {
+  max-width: 880px;
+  margin: 64px auto 42px;
+  text-align: center;
+}
+
+.revium-details__header h3 {
+  margin-bottom: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.revium-details__header sup {
+  font-size: 0.55em;
+}
+
+.revium-details__header p {
+  margin: 0;
+  color: #555;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.7;
+}
+
+.revium-details__grid--guidance {
+  align-items: start;
 }
 
 .revium-details__cta {
@@ -320,22 +348,31 @@ li {
   flex-direction: column;
 }
 
-.revium-product-flow > #etapas { order: 1; }
-.revium-product-flow > #que-es-revium { order: 2; }
-.revium-product-flow > #bioleather-kit { order: 3; }
-.revium-product-flow > #bioleather-intro { order: 4; }
+.revium-product-flow > #que-es-revium { order: 1; }
+.revium-product-flow > #bioleather-intro { order: 2; }
+.revium-product-flow > #revium-details { order: 3; }
+.revium-product-flow > #etapas { order: 4; }
 .revium-product-flow > #aplicaciones-concretas { order: 5; }
-.revium-product-flow > #antes-de-aplicar { order: 6; }
+.revium-product-flow > #bioleather-kit { order: 6; }
 
-.revium-product-flow > #etapas,
-.revium-product-flow > #antes-de-aplicar,
-.revium-product-flow > #bioleather-kit {
+.revium-product-flow > #que-es-revium,
+.revium-product-flow > #aplicaciones-concretas {
   background-color: #fff;
 }
 
-.revium-product-flow > #que-es-revium,
 .revium-product-flow > #bioleather-intro,
-.revium-product-flow > #aplicaciones-concretas {
+.revium-product-flow > #etapas,
+.revium-product-flow > #bioleather-kit {
+  background-color: var(--cnvs-section-bg);
+}
+
+#bioleather-intro > .section {
+  background-color: transparent;
+}
+
+#etapas,
+#etapas > .content-wrap,
+#etapas > .content-wrap > div {
   background-color: var(--cnvs-section-bg);
 }
 
@@ -368,6 +405,11 @@ li {
   line-height: 1.75;
 }
 
+.revium-overview__content > div > p {
+  width: 100%;
+  max-width: none;
+}
+
 .revium-overview__seal {
   display: flex;
   flex-direction: column;
@@ -382,6 +424,63 @@ li {
 .revium-overview__seal img {
   width: 110px;
   height: auto;
+}
+
+.revium-overview__attributes {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 28px;
+  margin-top: 52px;
+}
+
+.revium-overview__attribute {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  text-align: center;
+}
+
+.revium-overview__attribute i {
+  color: var(--cnvs-themecolor);
+  font-size: 30px;
+  line-height: 1;
+}
+
+.revium-overview__plastic-free-icon {
+  position: relative;
+}
+
+.revium-overview__plastic-free-icon::after {
+  position: absolute;
+  width: 3px;
+  height: 38px;
+  top: 50%;
+  left: 50%;
+  background: currentColor;
+  border-radius: 2px;
+  content: "";
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.revium-overview__circular-economy-icon {
+  display: inline-flex;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid currentColor;
+  border-radius: 50%;
+  font-size: 25px !important;
+}
+
+.revium-overview__attribute p {
+  margin: 0;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.55;
 }
 
 .revium-lines__header {
@@ -628,6 +727,10 @@ li {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  .revium-details__grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
   .revium-guidance__grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -965,7 +1068,7 @@ li {
   width: 100%;
   margin: 64px auto 0;
   padding: 42px;
-  background: #fff;
+  background: transparent;
   text-align: center;
 }
 
@@ -988,6 +1091,16 @@ li {
   .revium-overview__content {
     grid-template-columns: 1fr;
     gap: 36px;
+    text-align: center;
+  }
+
+  .revium-overview__attributes {
+    grid-template-columns: 1fr 1fr;
+    margin-top: 40px;
+  }
+
+  .revium-overview__attribute {
+    align-items: center;
     text-align: center;
   }
 

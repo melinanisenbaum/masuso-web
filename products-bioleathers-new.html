@@ -22,7 +22,6 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 	<!-- Core Style -->
 	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="css/custom-new.css">
 
 	<!-- Font Icons -->
 	<link rel="stylesheet" href="css/font-icons.css">
@@ -34,7 +33,7 @@
 	<link rel="stylesheet" href="demos/ecommerce/ecommerce.css">
 
 	<!-- Custom CSS -->
-	<link rel="stylesheet" href="css/custom-new.css">
+	<link rel="stylesheet" href="css/custom-new.css?v=20260706-9">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Document Title
@@ -133,7 +132,7 @@
 
 							<ul class="menu-container">
 								<li class="menu-item"><a class="menu-link" href="index.html"><div>Home</div></a></li>
-								<li class="menu-item current"><a class="menu-link" href="products-bioleathers.html"><div>Productos</div></a></li>
+								<li class="menu-item current"><a class="menu-link" href="products-bioleathers-new.html"><div>Productos</div></a></li>
 								<li class="menu-item"><a class="menu-link" href="products-applications.html"><div>Aplicaciones</div></a></li>
 								<li class="menu-item"><a class="menu-link" href="#"><div>Sobre +USO</div></a></li>
 								<li class="menu-item"><a class="menu-link" href="#"><div>Contacto</div></a></li>
@@ -177,7 +176,46 @@
 		<!-- Content
 		============================================= -->
 		<div class="revium-product-flow">
-		<section id="etapas">
+		
+			<section id="que-es-revium" class="revium-overview">
+				<div class="container">
+					<div class="revium-overview__content">
+						<div>
+							<h2>Qué es Revium<sup>™</sup></h2>
+							<p>Revium<sup>™</sup> es el biomaterial flexible y biobasado desarrollado por +USO a partir de celulosa bacteriana y residuos industriales locales. Combina tecnología biológica, identidad de origen y una materialidad diferenciada para aplicaciones de diseño, packaging, encuadernación, accesorios y pequeñas series.</p>
+							<div class="revium-overview__attributes">
+								<article class="revium-overview__attribute">
+									<i class="bi-cup-straw revium-overview__plastic-free-icon" aria-hidden="true"></i>
+									<p>Libre de plástico.</p>
+								</article>
+								<article class="revium-overview__attribute">
+									<i class="bi-flower1" aria-hidden="true"></i>
+									<p>Hecho con residuos orgánicos.</p>
+								</article>
+								<article class="revium-overview__attribute">
+									<i class="bi-arrow-clockwise revium-overview__circular-economy-icon" aria-hidden="true"></i>
+									<p>Economía circular.</p>
+								</article>
+								<article class="revium-overview__attribute">
+									<i class="bi-geo-alt" aria-hidden="true"></i>
+									<p>Hecho en Mar del Plata.</p>
+								</article>
+								<article class="revium-overview__attribute">
+									<i class="bi-percent" aria-hidden="true"></i>
+									<p>Más de 90 % biobasado.</p>
+								</article>
+							</div>
+						</div>
+						<a class="revium-overview__seal" href="https://www.argentina.gob.ar/agricultura/sello-bioproducto-argentino">
+							<img src="images/clients/sello-bioproducto.png" alt="Sello de Bioproducto Argentino">
+							<span>Material reconocido con Sello de Bioproducto Argentino</span>
+						</a>
+					</div>
+				</div>
+			</section>
+
+		
+			<section id="etapas">
 			<div class="content-wrap py-0">
 
 				<div class="mt-0"  style="padding: 80px 0;">
@@ -187,14 +225,12 @@
 						<h2 class="fw-bold mb-0">¿En qué etapa está tu proyecto?</h2>
 						
 						<div class="row mt-5 col-mb-50 col-pt-50 flex-nowrap b2b-cards" style="margin-left: 0; margin-right: 0; gap: 0.5mm;">
-						
 							<div class="col" style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 								<div class="heading-block border-bottom-0 mb-3">
 									<h5>Quiero conocer el material</h5>
 								</div>
-								<p>Para comparar colores, texturas y terminaciones.</p>
-								<span>Recomendamos:</span>
-								<a href="products-bioleathers.html" class="more-link text-uppercase fw-medium" style="font-family: 'Montserrat'">Kit de Prototipado</a>
+								<p>Explorá colores, texturas y terminaciones.</p>
+								<a href="#kit-exploracion" class="more-link text-uppercase fw-medium" style="font-family: 'Montserrat'">Ver Kit de Exploración</a>
 							</div>
 								
 						
@@ -202,37 +238,21 @@
 								<div class="heading-block border-bottom-0 mb-3">
 									<h5>Ya tengo una aplicación definida</h5>
 								</div>
-								<p>Quiero probar corte, costura, pegado, grabado o comportamiento en un prototipo.</p>
-								<span>Recomendamos:</span>
-								<a href="products-bioleathers.html" class="more-link text-uppercase fw-medium" style="font-family: 'Montserrat'">Kit de Validación</a>
+								<p>Probá Revium™ en un producto o proceso definido.</p>
+								<a href="#kit-validacion" class="more-link text-uppercase fw-medium" style="font-family: 'Montserrat'">Ver Kit de Validación</a>
 							</div>
 
 							<div class="col" style="background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
 								<div class="heading-block border-bottom-0 mb-3">
 									<h5>Quiero producir una primera serie</h5>
 								</div>
-								<p>Quiero comprar planchas y evaluar disponibilidad por línea y lote.</p>
-								<span>Recomendamos:</span><a href="products-applications.html" class="more-link text-uppercase fw-medium" style="font-family: 'Montserrat'">Solicitar cotización</a>
+								<p>Consultá líneas y láminas disponibles.</p>
+								<a href="https://wa.me/+5492236348021?text=Hola, mi nombre es [Nombre]. Estoy interesado en obtener una cotización por [cantidad] láminas de Revium." class="more-link text-uppercase fw-medium" style="font-family: 'Montserrat'">Solicitar cotización</a>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>	
-		</section>
-
-		<section id="que-es-revium" class="revium-overview">
-			<div class="container">
-				<div class="revium-overview__content">
-					<div>
-						<h2>Qué es Revium<sup>™</sup></h2>
-						<p>Revium<sup>™</sup> es el biomaterial flexible y biobasado desarrollado por +USO a partir de celulosa bacteriana y residuos industriales locales. Combina tecnología biológica, identidad de origen y una materialidad diferenciada para aplicaciones de diseño, packaging, encuadernación, accesorios y pequeñas series.</p>
-					</div>
-					<a class="revium-overview__seal" href="https://www.argentina.gob.ar/agricultura/sello-bioproducto-argentino">
-						<img src="images/clients/sello-bioproducto.png" alt="Sello de Bioproducto Argentino">
-						<span>Material reconocido con Sello de Bioproducto Argentino</span>
-					</a>
-				</div>
-			</div>
 		</section>
 				
 		<section id="bioleather-intro">
@@ -633,69 +653,83 @@
 				</div>
 			</div>
 
-			<section class="revium-details">
+		</section>
+
+			<section id="revium-details" class="revium-details">
 				<div class="container">
+					<header class="revium-details__header">
+						<h3>Antes de aplicar Revium<sup>™</sup></h3>
+						<p>Revium<sup>™</sup> es un biomaterial en evolución, con características propias que deben considerarse al elegir una aplicación. Estas recomendaciones permiten utilizarlo de forma adecuada y evaluar cuándo conviene realizar una validación previa.</p>
+					</header>
+
 					<div class="revium-details__grid">
 						<article class="revium-details__item">
 							<i class="bi-file-earmark" aria-hidden="true"></i>
-							<h4>Formato</h4>
-							<p>Láminas individuales.</p>
+							<h4>Formato y comportamiento</h4>
+							<p>Láminas individuales de 65 × 40 cm aprox. Flexible y plegable.</p>
 						</article>
 						<article class="revium-details__item">
-							<i class="bi-rulers" aria-hidden="true"></i>
-							<h4>Medida</h4>
-							<p>65 × 40 cm aprox.</p>
+							<i class="bi-scissors" aria-hidden="true"></i>
+							<h4>Procesos</h4>
+							<p>Compatible con herramientas habituales de marroquinería y encuadernación.</p>
 						</article>
 						<article class="revium-details__item">
-							<i class="bi-boxes" aria-hidden="true"></i>
-							<h4>Disponibilidad</h4>
-							<p>Por línea, color y lote.</p>
+							<i class="bi-droplet" aria-hidden="true"></i>
+							<h4>Contacto con agua</h4>
+							<p>Es resistente al contacto moderado con agua, No es impermeable ni lavable a máquina.</p>
 						</article>
 						<article class="revium-details__item">
-							<i class="bi-lightbulb" aria-hidden="true"></i>
-							<h4>Ideal para</h4>
-							<p>Prototipos, primeras aplicaciones y pequeñas series.</p>
+							<i class="bi-palette" aria-hidden="true"></i>
+							<h4>Variaciones naturales</h4>
+							<p>Pueden existir variaciones de color, textura y comportamiento entre láminas o lotes.</p>
 						</article>
 						<article class="revium-details__item">
 							<i class="bi-people" aria-hidden="true"></i>
 							<h4>Acompañamiento</h4>
-							<p>Orientación según producto y proceso.</p>
+							<p>Acompañamos y orientamos en el proceso de incorporación de Revium<sup>™</sup> en productos y prototipos
 						</article>
 						<article class="revium-details__item">
 							<i class="bi-truck" aria-hidden="true"></i>
 							<h4>Envíos</h4>
-							<p>A todo el país.</p>
+							<p>EnvíosNacionales por Via Cargo. Envios Internacionales por DHL.
+							</p>
+						</article>
+						<article class="revium-details__item">
+							<i class="bi-shield-exclamation" aria-hidden="true"></i>
+							<h4>Aplicaciones exigentes</h4>
+							<p>Recomendamos validación previa para productos sometidos a alto desgaste, flexión intensa, humedad frecuente o calor.</p>
+						</article>
+						<article class="revium-details__item">
+							<i class="bi-hourglass-split" aria-hidden="true"></i>
+							<h4>Estado actual</h4>
+							<p>Revium<sup>™</sup> está orientado actualmente a prototipos, primeras aplicaciones, validaciones comerciales y pequeñas series.</p>
 						</article>
 					</div>
+					<div class="revium-details__grid revium-details__grid--guidance">
+					</div>
 					<div class="revium-details__cta">
-						<a href="https://wa.me/+5492236348021?text=Hola, te escribo desde la web. Quiero contarles qué producto quiero desarrollar con Revium." class="button button-border button-circle m-0 sumate">Contanos qué querés desarrollar</a>
+						<a href="products-applications.html#validaciones" class="more-link text-uppercase fw-medium">Descargar Ficha técnica></i></a>
 					</div>
 				</div>
 			</section>
-
-		</section>
 
 		<section id="aplicaciones-concretas" class="revium-applications">
 			<div class="container">
 				<header class="revium-applications__header">
 					<h2>Aplicaciones para empezar con Revium<sup>™</sup></h2>
-					<p>Revium<sup>™</sup> puede incorporarse en productos donde la textura, el origen biobasado y la diferenciación material aportan valor visible.</p>
-					<p>Actualmente recomendamos comenzar con aplicaciones concretas, piezas premium y pequeñas series que permitan validar el material antes de avanzar a mayores volúmenes.</p>
+					<p>Revium<sup>™</sup> puede incorporarse en productos donde la textura, el origen biobasado y la diferenciación material aportan valor visible. Recomendamos comenzar con aplicaciones concretas que permitan validar el material antes de avanzar a mayores volúmenes.</p>
+					
 				</header>
 
 				<div class="revium-applications__grid">
 					<article class="revium-application-card">
 						<img src="images/applications/packaging.png" alt="Aplicación de Revium en packaging y piezas para marcas">
 						<div class="revium-application-card__body">
-							<h3>Packaging y piezas para marcas</h3>
-							<p class="revium-application-card__lead">Hacé visible la sustentabilidad desde el material.</p>
-							<ul>
-								<li>Tags y etiquetas</li>
-								<li>Estuches y packaging especial</li>
-								<li>Carpetas institucionales</li>
-								<li>Regalos y ediciones limitadas</li>
-							</ul>
-							<span class="revium-application-card__status is-recommended">Uso recomendado</span>
+							<h3>Packaging y piezas de marca</h3>
+							<p class="revium-application-card__lead">Tags, estuches, tapas y piezas institucionales.</p>
+							<p class="revium-application-card__lead">Aporta diferenciación material y una comunicación sostenible tangible.</p>
+
+							<span class="revium-application-card__status is-recommended">Aplicación recomendada</span>
 							<a href="products-applications.html#validaciones" class="more-link text-uppercase fw-medium">Ver aplicaciones para marcas<i class="bi-arrow-right"></i></a>
 						</div>
 					</article>
@@ -704,14 +738,9 @@
 						<img src="images/applications/encuadernacion.png" alt="Aplicación de Revium en encuadernación">
 						<div class="revium-application-card__body">
 							<h3>Encuadernación y piezas editoriales</h3>
-							<p class="revium-application-card__lead">Una superficie diferencial para tapas y ediciones especiales.</p>
-							<ul>
-								<li>Tapas de cuadernos y agendas</li>
-								<li>Carpetas y portadocumentos</li>
-								<li>Álbumes</li>
-								<li>Encuadernaciones premium</li>
-							</ul>
-							<span class="revium-application-card__status is-recommended">Uso recomendado</span>
+							<p class="revium-application-card__lead">Tapas, carpetas, agendas y ediciones especiales.</p>
+							<p class="revium-application-card__lead">Aporta textura, identidad y mayor valor percibido.</p>
+							<span class="revium-application-card__status is-recommended">Aplicación recomendada</span>
 							<a href="products-applications.html#validaciones" class="more-link text-uppercase fw-medium">Explorar encuadernación<i class="bi-arrow-right"></i></a>
 						</div>
 					</article>
@@ -720,14 +749,9 @@
 						<img src="images/applications/marroquineria.png" alt="Aplicación de Revium en accesorios y marroquinería liviana">
 						<div class="revium-application-card__body">
 							<h3>Accesorios y marroquinería liviana</h3>
-							<p class="revium-application-card__lead">Empezá con una pieza chica o una línea cápsula.</p>
-							<ul>
-								<li>Tarjeteros y billeteras simples</li>
-								<li>Sobres y fundas</li>
-								<li>Etiquetas y llaveros</li>
-								<li>Apliques y piezas combinadas</li>
-							</ul>
-							<span class="revium-application-card__status is-validation">Validación según producto</span>
+							<p class="revium-application-card__lead">Tarjeteros, fundas, apliques y piezas combinadas</p>
+							<p class="revium-application-card__lead">Permite desarrollar cápsulas o detalles visibles.</p>
+							<span class="revium-application-card__status is-validation">Validación según diseño y uso</span>
 							<a href="https://wa.me/+5492236348021?text=Hola +USO. Quiero consultar una aplicación de Revium™ en accesorios o marroquinería liviana." class="more-link text-uppercase fw-medium">Consultar aplicación<i class="bi-arrow-right"></i></a>
 						</div>
 					</article>
@@ -735,15 +759,10 @@
 					<article class="revium-application-card">
 						<img src="images/applications/objeto-de-diseno.png" alt="Aplicación de Revium en objetos y prototipos de diseño">
 						<div class="revium-application-card__body">
-							<h3>Diseño de producto y ediciones especiales</h3>
-							<p class="revium-application-card__lead">Una nueva materialidad para objetos y prototipos.</p>
-							<ul>
-								<li>Objetos de autor</li>
-								<li>Luminarias y piezas decorativas</li>
-								<li>Prototipos</li>
-								<li>Desarrollos experimentales</li>
-							</ul>
-							<span class="revium-application-card__status is-validation">Validación previa recomendada</span>
+							<h3>Diseño de producto</h3>
+							<p class="revium-application-card__lead">Objetos, luminarias, superficies y piezas experimentales.</p>
+							<p class="revium-application-card__lead">Aporta una materialidad expresiva y biobasada.</p>
+							<span class="revium-application-card__status is-validation">Validación previa específica</span>
 							<a href="https://wa.me/+5492236348021?text=Hola +USO. Quiero consultar la viabilidad de una aplicación de Revium™ en un producto de diseño." class="more-link text-uppercase fw-medium">Evaluar viabilidad<i class="bi-arrow-right"></i></a>
 						</div>
 					</article>
@@ -761,66 +780,6 @@
 			</div>
 		</section>
 
-		<section id="antes-de-aplicar" class="revium-guidance">
-			<div class="container">
-				<header class="revium-guidance__header">
-					<h2>Antes de aplicar Revium<sup>™</sup></h2>
-					<p>Revium<sup>™</sup> es un biomaterial en evolución, con características propias que deben considerarse al elegir una aplicación. Estas recomendaciones permiten utilizarlo de forma adecuada y evaluar cuándo conviene realizar una validación previa.</p>
-				</header>
-
-				<div class="revium-guidance__grid">
-					<article class="revium-guidance__item">
-						<i class="bi-droplet" aria-hidden="true"></i>
-						<div>
-							<h3>Contacto con agua</h3>
-							<p>Es resistente al contacto moderado con agua, pero no es impermeable. Evitar la exposición prolongada, la inmersión y el lavado a máquina.</p>
-						</div>
-					</article>
-
-					<article class="revium-guidance__item">
-						<i class="bi-sun" aria-hidden="true"></i>
-						<div>
-							<h3>Condiciones ambientales</h3>
-							<p>La humedad, las temperaturas elevadas y la exposición prolongada a radiación UV pueden modificar sus propiedades.</p>
-						</div>
-					</article>
-
-					<article class="revium-guidance__item">
-						<i class="bi-palette" aria-hidden="true"></i>
-						<div>
-							<h3>Variaciones naturales</h3>
-							<p>Al tratarse de un biomaterial biofabricado, pueden existir variaciones de color, textura y comportamiento entre planchas o lotes.</p>
-						</div>
-					</article>
-
-					<article class="revium-guidance__item">
-						<i class="bi-gear" aria-hidden="true"></i>
-						<div>
-							<h3>Aplicaciones exigentes</h3>
-							<p>Para productos sometidos a alto desgaste, flexión intensa, humedad frecuente, calor o uso exterior, recomendamos realizar una validación específica antes de producir.</p>
-						</div>
-					</article>
-
-					<article class="revium-guidance__item">
-						<i class="bi-layers" aria-hidden="true"></i>
-						<div>
-							<h3>Estado actual</h3>
-							<p>Revium<sup>™</sup> está orientado actualmente a prototipos, primeras aplicaciones, validaciones comerciales y pequeñas series.</p>
-						</div>
-					</article>
-				</div>
-
-				<div class="revium-guidance__cta">
-					<h3>¿Necesitás evaluar una aplicación específica?</h3>
-					<p>Contanos qué producto querés desarrollar y te orientamos sobre su viabilidad, la línea más adecuada y el formato recomendado para empezar.</p>
-					<div class="revium-guidance__actions">
-						<a href="https://wa.me/+5492236348021?text=Hola +USO. Quiero evaluar Revium™ para desarrollar [tipo de producto]. La pieza tendrá un uso [describir uso] y estará expuesta a [agua, humedad, flexión, calor, exterior u otra condición]. Quisiera saber si el material es adecuado y qué opción recomiendan para empezar." class="button button-border button-circle m-0 sumate">Consultar mi aplicación</a>
-						<a href="#" class="more-link text-uppercase fw-medium">Ver preguntas frecuentes sobre Revium<sup>™</sup><i class="bi-arrow-right"></i></a>
-					</div>
-				</div>
-			</div>
-		</section>
-
 		<section id="bioleather-kit" class="revium-kits">
 			<div class="container">
 				<header class="revium-kits__header">
@@ -830,7 +789,7 @@
 
 				<div class="revium-kits__cards">
 					<article id="kit-exploracion" class="revium-kit-card">
-						<img src="images/products/kit-prototipado2.png" alt="Kit de Exploración Revium">
+						<img src="images/products/kit-interior.png" alt="Kit de Exploración Revium">
 						<div class="revium-kit-card__body">
 							<h3>Kit de Exploración Revium<sup>™</sup></h3>
 							<p class="revium-kit-card__lead">Para conocer el material y evaluar sus posibilidades.</p>
@@ -861,7 +820,7 @@
 					</article>
 
 					<article id="kit-validacion" class="revium-kit-card">
-						<img src="images/products/kit-interior.png" alt="Kit de Validación Revium">
+						<img src="images/hero/planchas-hero2.png" alt="Kit de Validación Revium">
 						<div class="revium-kit-card__body">
 							<h3>Kit de Validación Revium<sup>™</sup></h3>
 							<p class="revium-kit-card__lead">Para probar el material en una aplicación concreta.</p>
@@ -920,7 +879,7 @@
 					</div>
 				</article>
 
-				<div class="revium-kits__comparison">
+				<!-- <div class="revium-kits__comparison">
 					<h3>Compará las formas de empezar</h3>
 					<div class="revium-kits__table-wrap">
 						<table>
@@ -1031,7 +990,7 @@
 							<a href="https://wa.me/+5492236348021?text=Hola +USO. Quiero consultar disponibilidad de láminas Revium™ para desarrollar [tipo de producto]. Me interesa la línea [Neo, Artística o todavía no lo sé] y necesitaría aproximadamente [cantidad] láminas. ¿Podrían orientarme sobre la opción más adecuada?" class="button button-border button-circle m-0 sumate">Consultar láminas disponibles</a>
 						</article>
 					</div>
-				</div>
+				</div> -->
 
 				<div class="revium-kits__help">
 					<h3>¿No sabés qué opción elegir?</h3>
@@ -1072,7 +1031,7 @@
 							<!-- <div id="links-menu" class="widget widget_links widget-li-noicon">
 								<ul>
 									<li><a class="more-link text-uppercase fw-medium" style="font-family: 'Montserrat'" href="index.html">Home</a></li>
-									<li><a class="more-link text-uppercase fw-medium" style="font-family: 'Montserrat'" href="products-bioleathers.html">Biocueros</a></li>
+									<li><a class="more-link text-uppercase fw-medium" style="font-family: 'Montserrat'" href="products-bioleathers-new.html">Biocueros</a></li>
 									<li><a class="more-link text-uppercase fw-medium" style="font-family: 'Montserrat'" href="products-applications.html">Aplicaciones</a></li>
 									<li><a href="#">FAQS</a></li>
 									<li><a href="#">Novedades</a></li>
