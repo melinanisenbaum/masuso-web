@@ -157,13 +157,17 @@ li {
 .certification-badge{
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 44px;
 }
 
 .certification-badge__img{
-  height: 100px;
+  height: 130px;
   width: auto;
   display: block;
+}
+
+.certification-badge__img--bioproducto{
+  height: 150px;
 }
 
 .certification-badge__text{
@@ -175,7 +179,9 @@ li {
 }
 
 @media (max-width: 768px){
-  .certification-badge__img{ height: 70px; }
+  .certification-badge{ gap: 32px; }
+  .certification-badge__img{ height: 90px; }
+  .certification-badge__img--bioproducto{ height: 105px; }
   .certification-badge__text{ font-size: 13px; }
 }
 
