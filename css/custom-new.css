@@ -367,15 +367,18 @@ li {
 .revium-product-flow > #aplicaciones-concretas { order: 5; }
 .revium-product-flow > #bioleather-kit { order: 6; }
 
-.revium-product-flow > #etapas,
-.revium-product-flow > #lineas-de-producto,
-.revium-product-flow > #bioleather-kit {
+#que-es-revium,
+#bioleather-kit {
   background-color: #fff;
 }
 
-.revium-product-flow > #que-es-revium,
-.revium-product-flow > #revium-details {
+#lineas-de-producto,
+#revium-help {
   background-color: var(--cnvs-section-bg);
+}
+
+#lineas-de-producto {
+  padding-bottom: 40px;
 }
 
 #lineas-de-producto > .section {
@@ -389,7 +392,7 @@ li {
 }
 
 .revium-overview {
-  padding: 90px 0;
+  padding: 0;
 }
 
 .revium-overview__content {
@@ -1127,28 +1130,28 @@ li {
   margin-top: 20px !important;
 }
 
+#revium-help {
+  padding: 80px 0;
+}
+
 .revium-kits__help {
   width: 100%;
-  margin: 64px auto 0;
-  padding: 42px;
+  margin: 0 auto;
+  padding: 0;
   background: transparent;
   text-align: center;
 }
 
 .revium-kits__help p {
-  margin: 14px 0 24px;
+  margin: 0 0 24px;
   color: #555;
   font-family: "Poppins", sans-serif;
-  line-height: 1.7;
+  line-height: 1.5;
 }
 
 @media (max-width: 767px) {
   .revium-details__grid {
     grid-template-columns: 1fr;
-  }
-
-  .revium-overview {
-    padding: 72px 0;
   }
 
   .revium-overview__content {
@@ -1248,9 +1251,6 @@ li {
     gap: 18px;
   }
 
-  .revium-kits__help {
-    padding: 30px 22px;
-  }
 }
 
 /* --- Sello Bioproducto en Hero (Biocueros) --- */

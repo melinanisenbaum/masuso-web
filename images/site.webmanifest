@@ -1,6 +1,8 @@
 {
   "name": "+USO",
   "short_name": "+USO",
+  "start_url": "/index.html",
+  "scope": "/",
   "icons": [
     {
       "src": "/images/web-app-manifest-192x192.png",
