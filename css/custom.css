@@ -227,6 +227,19 @@ li {
 
 #empresas p {
   padding-top: 15px;
+  font-size: 14px;
+}
+
+#empresas .iconlist > li > i:first-child {
+  font-size: 20px;
+  width: 1.25em;
+  height: 1.25em;
+}
+
+@media (max-width: 767.98px) {
+  #empresas .iconlist > li > i:first-child {
+    font-size: 36px;
+  }
 }
 
 
@@ -473,7 +486,74 @@ li {
   text-transform: uppercase;
 }
 
-#slider .slider-caption .more-link {
+#applications > .content-wrap > .container > .heading-block {
+  --cnvs-heading-block-center-container: 100%;
+}
+
+#applications > .content-wrap > .container > .heading-block > h3,
+#empresas .heading-block > h3 {
+  font-size: var(--cnvs-font-size-h2);
+}
+
+#applications > .content-wrap > .container > .heading-block > .subtitle,
+#empresas .heading-block > .subtitle {
+  font-size: var(--cnvs-font-size-body);
+}
+
+#applications > .content-wrap > .container > .heading-block > .subtitle {
+  text-wrap: balance;
+}
+
+.applications-card {
+  position: relative;
+  max-width: 1320px;
+  margin: 48px auto 0;
+  padding: 48px 40px;
+  background-color: #fff;
+  border: 1px solid rgba(164, 134, 114, 0.16);
+  border-radius: 8px;
+  box-shadow: 0 18px 45px rgba(40, 35, 31, 0.06);
+}
+
+.applications-card > .row {
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .applications-card > .row > div {
+    width: 33.33333333%;
+  }
+}
+
+@media (max-width: 767px) {
+  .applications-card {
+    margin-top: 36px;
+    padding: 34px 18px;
+  }
+}
+
+#applications-hero {
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  #applications-hero {
+    min-height: 75vh;
+  }
+}
+
+@media (max-width: 576px) {
+  #applications-hero .page-title-content h2 {
+    font-size: 32px !important;
+    line-height: 1.05 !important;
+    max-width: 92vw !important;
+  }
+}
+
+#slider .slider-caption .more-link,
+#applications-hero .page-title-content .more-link {
   margin-top: 34px !important;
   padding-bottom: 4px;
   font-size: 17px;
@@ -481,7 +561,8 @@ li {
   line-height: 1.2;
 }
 
-#slider .slider-caption .more-link i {
+#slider .slider-caption .more-link i,
+#applications-hero .page-title-content .more-link i {
   margin-left: 8px;
   font-size: 1.1em;
 }
