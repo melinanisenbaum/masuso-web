@@ -486,6 +486,16 @@ li {
   text-transform: uppercase;
 }
 
+#applications > .content-wrap:first-child,
+#applications > #empresas {
+  background-color: #fff;
+}
+
+#applications > #perla,
+#applications > .applications-contact {
+  background-color: var(--cnvs-section-bg);
+}
+
 #applications > .content-wrap > .container > .heading-block {
   --cnvs-heading-block-center-container: 100%;
 }
