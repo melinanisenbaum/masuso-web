@@ -1150,6 +1150,10 @@ li {
 }
 
 @media (max-width: 767px) {
+  .revium-kits__cards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
   .revium-details__grid {
     grid-template-columns: 1fr;
   }
